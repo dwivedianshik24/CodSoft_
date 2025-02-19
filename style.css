@@ -1,0 +1,115 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding:0;
+    background-color: #f8f1f1;
+    color: wheat;
+}
+header{
+    background-color: blue;
+    color:rgb(212, 32, 53);
+    text-align: center;
+    padding: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: sticky;
+    top: 0;
+    }
+    .about-section{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 19px;
+        padding: 50px 20px;
+    }
+    .about-section img{
+    
+                width: 400px;
+        height: auto;
+        border-radius: 18;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
+    }
+    .about-section img:hover{
+        transform: scale(1.1);
+        box-shadow: 0 15px 30px black;
+    }
+.content {
+    flex: 1;
+    max-width: 60%;
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #555;
+}
+.quotes {
+    background-color: #f8f1f1; 
+    padding: 30px;
+    border-left: 5px solid #e91e63;
+    margin: 30px 0;
+    border-radius: 10px;
+    animation: fadeInRight 2s ease-out;
+    text-align: right;
+}
+.quotes blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0;
+    color: #e91e63;
+}
+.quotes footer {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #34495e;
+}
+.bio-graphy {
+    background-color: #fce4ec; 
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-out;
+    max-width: 800px; 
+    margin: 50px auto; 
+    text-align: center;
+    font-size: 1.2em; 
+}
+.bio-graphy h2 {
+    font-size: 2.5em;
+    color: #e91e63; 
+    margin-bottom: 20px;
+}
+.bio-graphy p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+}
+.achievements {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.achievements h2 {
+    font-size: 2em;
+    color: #e91e63;
+    text-align: center;
+}
+
+.achievements ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+.footer{
+    background-color:rgb(90, 85, 222) ;
+    color: #070506;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 1.1 em;
+}
